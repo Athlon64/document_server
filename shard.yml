@@ -1,0 +1,17 @@
+name: docs
+version: 0.1.0
+
+authors:
+  - Alexander Zhou <Alexander.zhou.boy@gmail.com>
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+targets:
+  docs:
+    main: src/docs.cr
+
+crystal: 1.5.0
+
+license: MIT
